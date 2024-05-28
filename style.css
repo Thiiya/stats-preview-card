@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+s
+ * {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: "Chakra Petch", sans-serif;
+}  
+
+  body{
+  
+    background-color: #0e051d;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12%;
+  }
+
+.dark {
+  width: 900px;
+  height: 290px;
+  background-color: rgb(27, 11, 79);
+  border-radius: 5px;
+  padding-bottom: 10px;
+  display: flex;
+}
+
+.border {
+  width: 50vw;
+  height: 100%;
+ 
+}
+
+h2 {
+  color: snow;
+  padding: 8px 15px;
+  font-size: 2rem;
+}
+
+span {
+  color: blueviolet;
+}
+
+p {
+  padding-left: 15px;
+  color: rgb(149, 144, 149);
+  
+}
+.number {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30vw;
+  margin-top: -20px;
+}
+.k {
+  margin-left: 20px;
+  color: snow;
+}
+
+.one {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.k p {
+  margin: -40px -14px;
+  color: rgb(129, 117, 117);
+  font-size: 10px;
+  
+}
+
+.image {
+  background-image: url(images/office.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50vw;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.overlay {
+  width: 50vw;
+  height: 300px;
+  background-color:blueviolet;
+  opacity: 0.5;
+  border-radius: 5px;
+}
